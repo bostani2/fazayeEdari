@@ -1,0 +1,36 @@
+.containar {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-rows: 25vh 80vh 50vh;
+  gap: 0px;
+  grid-template-areas:
+    "h h h h h h h h h h h h"
+    "m m b b b b b b b b b b"
+    "f f f f f f f f f f f f";
+}
+
+.heder {
+  background-color: #34495e;
+  grid-area: h;
+  font-family: sahel-bold;
+  font-size: 50px;
+}
+
+.menu {
+  font-family: sahel;
+  background-color: #7f8c8d;
+  grid-area: m;
+  width: auto;
+}
+
+.body {
+  font-family: sahel;
+  background-color: #ecf0f1;
+  grid-area: b;
+}
+
+.footer {
+  font-family: sahel;
+  background-color: #bdc3c7;
+  grid-area: f;
+}
