@@ -1,7 +1,6 @@
 .containar {
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-  grid-template-rows: 25vh 80vh 50vh;
+  grid-template-rows: 22vh 80vh 50vh;
   gap: 0px;
   grid-template-areas:
     "h h h h h h h h h h h h"
