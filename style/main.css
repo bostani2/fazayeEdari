@@ -17,17 +17,17 @@
   display: flex;
 }
 
+.heder {
+  justify-content: center;
+  align-items: center;
+}
+
 .menu {
   padding-top: 20px;
   padding-right: 10px;
   padding-left: 10px;
   flex-direction: column;
   row-gap: 10px;
-}
-
-.heder {
-  justify-content: center;
-  align-items: center;
 }
 
 .body {
