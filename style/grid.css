@@ -5,7 +5,7 @@
   gap: 0px;
   grid-template-areas:
     "h h h h h h h h h h h h"
-    "m m b b b b b b b b b b"
+    "m b b b b b b b b b b b"
     "f f f f f f f f f f f f";
 }
 
