@@ -1,16 +1,16 @@
 @font-face {
   font-family: sahel;
-  src: url(/font/Sahel.ttf);
+  src: url(/webfonts/farsi/Sahel.ttf);
 }
 
 @font-face {
-  font-family: sahel-bold;
-  src: url(/font/Sahel-Bold.ttf);
+  font-family: Sahel-Bold;
+  src: url(/webfonts/farsi/Sahel-Bold.ttf);
 }
 
 @font-face {
-  font-family: sahel-black;
-  src: url(/font/Sahel-Black.ttf);
+  font-family: Tanha;
+  src: url(/webfonts/farsi/Tanha.ttf);
 }
 
 .heder {
