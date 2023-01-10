@@ -13,17 +13,15 @@
   src: url(/font/Sahel-Black.ttf);
 }
 
-.containar > div {
-  display: flex;
-}
-
 .heder {
+  display: flex;
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid black;
 }
 
 .menu {
+  display: flex;
   padding-top: 20px;
   padding-right: 10px;
   padding-left: 10px;
@@ -32,6 +30,7 @@
 }
 
 .body {
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
