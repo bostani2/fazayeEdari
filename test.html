@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/style/bootstrap.rtl.min.css" />
+    <style>
+      .c {
+        display: flex;
+        height: 100vh;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: flex-end;
+      }
+      .item {
+        line-height: 200px;
+        color: white;
+        text-align: center;
+        /* width: 200px; */
+      }
+      .item:nth-child(1) {
+        background-color: red;
+      }
+      .item:nth-child(2) {
+        background-color: blue;
+      }
+      .item:nth-child(3) {
+        background-color: green;
+        height: 300px;
+      }
+      .item:nth-child(4) {
+        background-color: brown;
+      }
+      .item:nth-child(5) {
+        background-color: rgb(194, 188, 3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="d-flex flex-row">
+      <div class="item">1</div>
+      <div class="item flex-fill">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item"><kbd>c + r + T</kbd></div>
+    </div>
+    <script src="/js/bootstrap.bundle.js" crossorigin="anonymous"></script>
+  </body>
+</html>
